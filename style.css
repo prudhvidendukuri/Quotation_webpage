@@ -1,0 +1,142 @@
+/* just */
+/* div {
+    border: 1px solid red;
+} */
+
+/* body css */
+body {
+    background-color: #e5e5f7;
+    opacity: 0.8;
+    background-image: radial-gradient(#444cf7 1px, #e5e5f7 1px);
+    background-size: 20px 20px;
+}
+
+/* container css */
+.container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 95vh;
+    flex-direction: column;
+    margin: auto;
+    line-height: 4rem;
+
+
+}
+
+.quote-container {
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    width: 60%;
+    padding: 1rem 2rem;
+    box-shadow: 5px 5px 10px 5px rgb(110, 25, 25);
+    row-gap: 20px;
+    background-color: azure;
+}
+
+/* icon css */
+.fa-quote-left,
+.fa-quote-right {
+    font-size: 5rem;
+    color: rgb(94, 2, 2);
+
+}
+
+/* text css */
+.text {
+    font-size: 3rem;
+
+}
+
+/* author css */
+.author {
+    font-size: 2rem;
+    color: rgb(0, 0, 0);
+    width: 100%;
+    text-align: end;
+}
+
+/* features css */
+.features {
+    display: flex;
+    justify-content: space-around;
+    width: 100%;
+}
+
+.media {
+    display: flex;
+    width: 100%;
+    justify-content: center;
+    flex-wrap: wrap;
+
+}
+
+.media i {
+    margin: 0px 20px;
+}
+
+.fa-size-media {
+    font-size: 2rem;
+    display: inline-block;
+}
+
+.fa-size {
+    font-size: 3rem;
+}
+
+.fa-brands:hover {
+    cursor: pointer;
+    transform: translate(0, 0.25rem);
+    color: rgb(17, 49, 194);
+
+}
+
+.fa-download:hover {
+    cursor: pointer;
+    transform: translate(0.25rem, 0.25rem);
+}
+
+.fa-size:hover {
+    cursor: pointer;
+    transform: translate(0.5rem, 0);
+    color: rgb(46, 0, 0);
+}
+
+/* responsiveness css */
+@media (max-width:600px) {
+    .container{
+        line-height: 3rem;
+    }
+
+    .fa-quote-left,
+    .fa-quote-right {
+        font-size: 3rem;
+
+    }
+
+    .text {
+        font-size: 2rem;
+    }
+
+    .author {
+        font-size: 1.5rem;
+
+    }
+
+    .features i {
+        font-size: 1.3rem;
+    }
+
+    .media {
+        align-items: center;
+    }
+
+    .media i {
+        margin: 0px 10px;
+    }
+
+
+}
