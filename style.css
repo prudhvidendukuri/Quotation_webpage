@@ -10,6 +10,9 @@ body {
     background-image: radial-gradient(#444cf7 1px, #e5e5f7 1px);
     background-size: 20px 20px;
 }
+p{
+    display: inline;
+}
 
 /* container css */
 .container {
